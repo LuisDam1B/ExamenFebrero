@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_item_ciudades"
+            android:checked="true"
+            android:icon="@drawable/icons8_casa_24"
+            android:title="Ciudades"/>
+        <item
+            android:id="@+id/navigation_item_comunidad"
+            android:icon="@drawable/work_icon"
+            android:title="Comunidad"/>
+        <item
+            android:id="@+id/navigation_item_amigos"
+            android:icon="@drawable/friends_icon"
+            android:title="Amigos"/>
+        <item
+            android:id="@+id/navigation_item_todos"
+            android:icon="@drawable/internet_world_275"
+            android:title="Todos"/>
+
+    </group>
+
+</menu>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "954099055234",
+    "firebase_url": "https://repasofebrero.firebaseio.com",
+    "project_id": "repasofebrero",
+    "storage_bucket": "repasofebrero.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954099055234:android:76f4799bda9aed1ce0529b",
+        "android_client_info": {
+          "package_name": "com.example.examenfebrero"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "954099055234-u7dq7i2flcrdjpla97lpv5o0t4r7me9j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKQ29G5s4ud3BdF0yGy-eGD4ZMC4p2SRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "954099055234-u7dq7i2flcrdjpla97lpv5o0t4r7me9j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

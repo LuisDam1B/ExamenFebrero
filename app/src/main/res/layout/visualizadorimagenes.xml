@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/view"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:layout_margin="5dp"
+    android:id="@+id/linear"
+    android:background="#B0BACF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/nombreCiudad"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:text="NOMBRE CIUDAD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"/>
+    <TextView
+        android:id="@+id/descripcionCiudad"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:text="Descripción CIUDAD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"/>
+    <FrameLayout
+        android:layout_weight="0.6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/imagenCiudad"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+        <ImageButton
+            android:id="@+id/retrocederImagen"
+            android:layout_gravity="center|left"
+            android:background="@android:drawable/ic_media_rew"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+        <ImageButton
+            android:id="@+id/avanzarImagen"
+            android:layout_gravity="center|right"
+            android:background="@android:drawable/ic_media_ff"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+
+    </FrameLayout>
+
+</LinearLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/añadirImagen"
+        app:backgroundTint="#D7577E88"
+        android:src="@android:drawable/ic_menu_add"
+        app:layout_anchor="@id/linear"
+        app:layout_anchorGravity="right|bottom"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
